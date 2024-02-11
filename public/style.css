@@ -450,6 +450,15 @@ footer {
     border-radius: 7px;
   }
 }
+.card-content a{
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  font-size: 1.9rem;
+}
+.card-content a:hover{
+  color: var(--main-color);
+}
 @media (max-width: 1140px){
   nav{
     padding: 0px;
