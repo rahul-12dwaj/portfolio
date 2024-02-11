@@ -267,11 +267,12 @@ margin: 10px 0;
   border-radius: 7px;
 }
 .card-img{
-  height: 300px;
+ 
   background-size: cover;
   margin-top: 1rem;
   margin-bottom: 1rem;
   border-radius: 7px;
+
 }
 .card-content{
   margin-left: 1rem;
@@ -283,6 +284,15 @@ margin: 10px 0;
 .card-content p{
   padding: 20px 0px 20px;
   color: #aaadad
+}
+.card-content a{
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  font-size: 1.9rem;
+}
+.card-content a:hover{
+  color: var(--main-color);
 }
 /* Zoom Effect on Skill Cards */
 .card:hover {
@@ -449,16 +459,9 @@ footer {
     transition: transform 0.3s ease;
     border-radius: 7px;
   }
+  
 }
-.card-content a{
-  text-decoration: none;
-  color: white;
-  padding: 5px;
-  font-size: 1.9rem;
-}
-.card-content a:hover{
-  color: var(--main-color);
-}
+
 @media (max-width: 1140px){
   nav{
     padding: 0px;
