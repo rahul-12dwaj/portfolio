@@ -313,10 +313,10 @@ margin: 10px 0;
 footer {
   padding: 40px;
   margin-top: 40px;
-  text-align: center;
+   text-align: center;
   align-items: center;
   justify-content: center;
-  font-weight: normal; /* Remove bold styling */
+  font-weight: normal;/* Remove bold styling */
 }
 
 
@@ -518,6 +518,7 @@ footer {
     display: block;
   }
   }
+
   .content{
   position: absolute;
   top: 50%;
