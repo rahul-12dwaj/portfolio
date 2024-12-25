@@ -21,7 +21,7 @@ const Hero = () => {
       id="home"
       className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-blue-900"
     >
-      <div className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center ml-10 mt-20">
+      <div className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center ml-10 mr-10 mt-20">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -51,7 +51,7 @@ const Hero = () => {
 
           <motion.a
             href="https://linkedin.com/in/rahulbhardwaj4239"
-            className="bg-blue-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-700 transition duration-300 inline-block ml-4"
+            className="bg-blue-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-700 transition duration-300 inline-block ml-4 mt-5"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
