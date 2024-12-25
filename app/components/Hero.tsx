@@ -33,7 +33,7 @@ const Hero = () => {
           </h1>
           <h2 className="text-2xl md:text-3xl text-gray-600 dark:text-gray-300 mb-6 h-[40px]">
             <span className="inline-block min-w-[20px]">{typedText}</span>
-            <span className="inline-block w-[3px] h-[30px] bg-blue-600 dark:bg-blue-400 ml-1 mb-2 animate-blink"></span>
+            <span className="inline-block w-[3px] h-[30px] bg-blue-600 dark:bg-blue-400 ml-1 m-5 animate-blink"></span>
           </h2>
           <p className="text-lg text-gray-700 dark:text-gray-400 mb-8">
             Master&apos;s student in Computer Science with a passion for
