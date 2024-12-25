@@ -51,7 +51,7 @@ const Hero = () => {
 
           <motion.a
             href="https://linkedin.com/in/rahulbhardwaj4239"
-            className="bg-blue-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-700 transition duration-300 inline-block ml-4 mt-5"
+            className="bg-blue-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-700 transition duration-300 inline-block ml-4 mt-4"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
