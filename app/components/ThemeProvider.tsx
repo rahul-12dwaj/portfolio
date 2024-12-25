@@ -1,3 +1,5 @@
+"use client";
+
 import { createContext, useContext, useEffect, useState } from "react";
 
 type Theme = "light" | "dark";
@@ -18,7 +20,6 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     if (savedTheme) {
       setTheme(savedTheme); // If a saved theme exists, use it
     }
-    // Do not rely on system preference, just set dark as default if no saved theme
   }, []);
 
   // Apply the theme immediately when the theme state changes
