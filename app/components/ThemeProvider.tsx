@@ -1,5 +1,3 @@
-"use client";
-
 import { createContext, useContext, useEffect, useState } from "react";
 
 type Theme = "light" | "dark";
@@ -19,9 +17,8 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     const savedTheme = localStorage.getItem("theme") as Theme | null;
     if (savedTheme) {
       setTheme(savedTheme); // If a saved theme exists, use it
-    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      setTheme("dark"); // Use system theme preference if no saved theme is found
     }
+    // Do not rely on system preference, just set dark as default if no saved theme
   }, []);
 
   // Apply the theme immediately when the theme state changes
