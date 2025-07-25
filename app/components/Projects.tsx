@@ -9,7 +9,7 @@ const projects = [
     title: "Crime Report Management & FIR Tracking System",
     description:
       "A full-stack web application with FIR and Crime report Managing system.",
-    image: "/amazone-clone.jpeg",
+    image: "/CrimeManagement.jpeg",
     link: "https://crimemanagement.onrender.com/",
     techStack: "MERN Stack",
   },
