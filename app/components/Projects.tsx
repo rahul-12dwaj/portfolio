@@ -6,6 +6,14 @@ import Image from "next/image";
 
 const projects = [
   {
+    title: "Crime Report Management & FIR Tracking System",
+    description:
+      "A full-stack web application with FIR and Crime report Managing system.",
+    image: "/amazone-clone.jpeg",
+    link: "https://crimemanagement.onrender.com/",
+    techStack: "MERN Stack",
+  },
+  {
     title: "School Website",
     description:
       "A full-stack web application with user registration and dynamic content updates.",
@@ -19,14 +27,6 @@ const projects = [
       "A responsive personal portfolio website showcasing projects and skills.",
     image: "/portfolio.jpeg",
     link: "https://myportfolio-da023.web.app",
-    techStack: "HTML, CSS, JavaScript",
-  },
-  {
-    title: "Amazon Clone",
-    description:
-      "A frontend replica of the Amazon homepage and product catalog.",
-    image: "/amazone-clone.jpeg",
-    link: "https://e-commerce-clone-rahulbhardwaj.web.app",
     techStack: "HTML, CSS, JavaScript",
   },
 ];
